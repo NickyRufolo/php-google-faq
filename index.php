@@ -60,7 +60,7 @@ $faq = [
 // echo '</pre>';
 // echo "<h1>$gruppi[domanda]</h1>";
 // echo "<p>$gruppi[risposta]</p>";
-echo $faq['gruppo4']['domanda'];
+
 foreach ($faq as $gruppi) {
     echo "<h1> -" . $gruppi['domanda'] . "</h1>";
     // var_dump($gruppi['risposta']);
