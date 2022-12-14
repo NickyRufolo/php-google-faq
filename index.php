@@ -59,5 +59,5 @@ foreach ($faq as $gruppi) {
 echo "<h1>$gruppi[domanda]</h1>";
 echo "<p>$gruppi[risposta]</p>";
 }
-else 
+
 ?>
